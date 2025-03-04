@@ -10,8 +10,8 @@ void	ft_base(unsigned char c)
 	char	*base;
 
 	base = "0123456789abcdef";
-	ft_putchar(xdigit[c / 16]);
-	ft_putchar(xdigit[c % 16]);
+	ft_putchar(base[c / 16]);
+	ft_putchar(base[c % 16]);
 }
 
 void	ft_putstr_non_printable(char *str)
